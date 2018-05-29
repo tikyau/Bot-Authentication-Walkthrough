@@ -1,0 +1,145 @@
+E:\Web\Fiverr\Programming Guy\Orders\#FO811DD1E8484\NEW\Bot App\Bot App\obj\Debug\Bot App.csprojAssemblyReference.cache
+E:\Web\Fiverr\Programming Guy\Orders\#FO811DD1E8484\NEW\Bot App\Bot App\obj\Debug\Bot App.csproj.CoreCompileInputs.cache
+E:\Web\Fiverr\Programming Guy\Orders\#FO811DD1E8484\NEW\Bot App\Bot App\bin\Bot Application.dll.config
+E:\Web\Fiverr\Programming Guy\Orders\#FO811DD1E8484\NEW\Bot App\Bot App\bin\Bot Application.dll
+E:\Web\Fiverr\Programming Guy\Orders\#FO811DD1E8484\NEW\Bot App\Bot App\bin\Bot Application.pdb
+E:\Web\Fiverr\Programming Guy\Orders\#FO811DD1E8484\NEW\Bot App\Bot App\bin\AuthBot.dll
+E:\Web\Fiverr\Programming Guy\Orders\#FO811DD1E8484\NEW\Bot App\Bot App\bin\Autofac.dll
+E:\Web\Fiverr\Programming Guy\Orders\#FO811DD1E8484\NEW\Bot App\Bot App\bin\Chronic.dll
+E:\Web\Fiverr\Programming Guy\Orders\#FO811DD1E8484\NEW\Bot App\Bot App\bin\Microsoft.Bot.Builder.Autofac.dll
+E:\Web\Fiverr\Programming Guy\Orders\#FO811DD1E8484\NEW\Bot App\Bot App\bin\Microsoft.Bot.Builder.dll
+E:\Web\Fiverr\Programming Guy\Orders\#FO811DD1E8484\NEW\Bot App\Bot App\bin\Microsoft.Bot.Builder.Extensions.dll
+E:\Web\Fiverr\Programming Guy\Orders\#FO811DD1E8484\NEW\Bot App\Bot App\bin\Microsoft.Bot.Connector.dll
+E:\Web\Fiverr\Programming Guy\Orders\#FO811DD1E8484\NEW\Bot App\Bot App\bin\Microsoft.Identity.Client.dll
+E:\Web\Fiverr\Programming Guy\Orders\#FO811DD1E8484\NEW\Bot App\Bot App\bin\Microsoft.Identity.Client.Platform.dll
+E:\Web\Fiverr\Programming Guy\Orders\#FO811DD1E8484\NEW\Bot App\Bot App\bin\Microsoft.IdentityModel.Clients.ActiveDirectory.dll
+E:\Web\Fiverr\Programming Guy\Orders\#FO811DD1E8484\NEW\Bot App\Bot App\bin\Microsoft.IdentityModel.Clients.ActiveDirectory.Platform.dll
+E:\Web\Fiverr\Programming Guy\Orders\#FO811DD1E8484\NEW\Bot App\Bot App\bin\Microsoft.IdentityModel.Logging.dll
+E:\Web\Fiverr\Programming Guy\Orders\#FO811DD1E8484\NEW\Bot App\Bot App\bin\Microsoft.IdentityModel.Protocol.Extensions.dll
+E:\Web\Fiverr\Programming Guy\Orders\#FO811DD1E8484\NEW\Bot App\Bot App\bin\Microsoft.IdentityModel.Protocols.dll
+E:\Web\Fiverr\Programming Guy\Orders\#FO811DD1E8484\NEW\Bot App\Bot App\bin\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+E:\Web\Fiverr\Programming Guy\Orders\#FO811DD1E8484\NEW\Bot App\Bot App\bin\Microsoft.IdentityModel.Tokens.dll
+E:\Web\Fiverr\Programming Guy\Orders\#FO811DD1E8484\NEW\Bot App\Bot App\bin\Microsoft.Rest.ClientRuntime.dll
+E:\Web\Fiverr\Programming Guy\Orders\#FO811DD1E8484\NEW\Bot App\Bot App\bin\Microsoft.Win32.Primitives.dll
+E:\Web\Fiverr\Programming Guy\Orders\#FO811DD1E8484\NEW\Bot App\Bot App\bin\Microsoft.WindowsAzure.Configuration.dll
+E:\Web\Fiverr\Programming Guy\Orders\#FO811DD1E8484\NEW\Bot App\Bot App\bin\Newtonsoft.Json.dll
+E:\Web\Fiverr\Programming Guy\Orders\#FO811DD1E8484\NEW\Bot App\Bot App\bin\System.Diagnostics.DiagnosticSource.dll
+E:\Web\Fiverr\Programming Guy\Orders\#FO811DD1E8484\NEW\Bot App\Bot App\bin\System.IdentityModel.Tokens.Jwt.dll
+E:\Web\Fiverr\Programming Guy\Orders\#FO811DD1E8484\NEW\Bot App\Bot App\bin\System.Net.Http.Formatting.dll
+E:\Web\Fiverr\Programming Guy\Orders\#FO811DD1E8484\NEW\Bot App\Bot App\bin\System.Runtime.Serialization.Primitives.dll
+E:\Web\Fiverr\Programming Guy\Orders\#FO811DD1E8484\NEW\Bot App\Bot App\bin\System.Security.Cryptography.Algorithms.dll
+E:\Web\Fiverr\Programming Guy\Orders\#FO811DD1E8484\NEW\Bot App\Bot App\bin\System.Security.Cryptography.Encoding.dll
+E:\Web\Fiverr\Programming Guy\Orders\#FO811DD1E8484\NEW\Bot App\Bot App\bin\System.Security.Cryptography.Primitives.dll
+E:\Web\Fiverr\Programming Guy\Orders\#FO811DD1E8484\NEW\Bot App\Bot App\bin\System.Security.Cryptography.X509Certificates.dll
+E:\Web\Fiverr\Programming Guy\Orders\#FO811DD1E8484\NEW\Bot App\Bot App\bin\System.Web.Http.dll
+E:\Web\Fiverr\Programming Guy\Orders\#FO811DD1E8484\NEW\Bot App\Bot App\bin\System.Web.Http.WebHost.dll
+E:\Web\Fiverr\Programming Guy\Orders\#FO811DD1E8484\NEW\Bot App\Bot App\bin\Autofac.xml
+E:\Web\Fiverr\Programming Guy\Orders\#FO811DD1E8484\NEW\Bot App\Bot App\bin\Microsoft.Bot.Builder.xml
+E:\Web\Fiverr\Programming Guy\Orders\#FO811DD1E8484\NEW\Bot App\Bot App\bin\Microsoft.Bot.Builder.Autofac.xml
+E:\Web\Fiverr\Programming Guy\Orders\#FO811DD1E8484\NEW\Bot App\Bot App\bin\Microsoft.Bot.Builder.Extensions.xml
+E:\Web\Fiverr\Programming Guy\Orders\#FO811DD1E8484\NEW\Bot App\Bot App\bin\Microsoft.Bot.Connector.xml
+E:\Web\Fiverr\Programming Guy\Orders\#FO811DD1E8484\NEW\Bot App\Bot App\bin\Microsoft.Identity.Client.xml
+E:\Web\Fiverr\Programming Guy\Orders\#FO811DD1E8484\NEW\Bot App\Bot App\bin\Microsoft.Identity.Client.Platform.xml
+E:\Web\Fiverr\Programming Guy\Orders\#FO811DD1E8484\NEW\Bot App\Bot App\bin\Microsoft.IdentityModel.Clients.ActiveDirectory.xml
+E:\Web\Fiverr\Programming Guy\Orders\#FO811DD1E8484\NEW\Bot App\Bot App\bin\Microsoft.IdentityModel.Clients.ActiveDirectory.Platform.xml
+E:\Web\Fiverr\Programming Guy\Orders\#FO811DD1E8484\NEW\Bot App\Bot App\bin\Microsoft.IdentityModel.Logging.xml
+E:\Web\Fiverr\Programming Guy\Orders\#FO811DD1E8484\NEW\Bot App\Bot App\bin\Microsoft.IdentityModel.Protocol.Extensions.xml
+E:\Web\Fiverr\Programming Guy\Orders\#FO811DD1E8484\NEW\Bot App\Bot App\bin\Microsoft.IdentityModel.Protocols.xml
+E:\Web\Fiverr\Programming Guy\Orders\#FO811DD1E8484\NEW\Bot App\Bot App\bin\Microsoft.IdentityModel.Protocols.OpenIdConnect.xml
+E:\Web\Fiverr\Programming Guy\Orders\#FO811DD1E8484\NEW\Bot App\Bot App\bin\Microsoft.IdentityModel.Tokens.xml
+E:\Web\Fiverr\Programming Guy\Orders\#FO811DD1E8484\NEW\Bot App\Bot App\bin\Microsoft.Rest.ClientRuntime.xml
+E:\Web\Fiverr\Programming Guy\Orders\#FO811DD1E8484\NEW\Bot App\Bot App\bin\Microsoft.WindowsAzure.Configuration.xml
+E:\Web\Fiverr\Programming Guy\Orders\#FO811DD1E8484\NEW\Bot App\Bot App\bin\Newtonsoft.Json.xml
+E:\Web\Fiverr\Programming Guy\Orders\#FO811DD1E8484\NEW\Bot App\Bot App\bin\System.Diagnostics.DiagnosticSource.xml
+E:\Web\Fiverr\Programming Guy\Orders\#FO811DD1E8484\NEW\Bot App\Bot App\bin\System.IdentityModel.Tokens.Jwt.xml
+E:\Web\Fiverr\Programming Guy\Orders\#FO811DD1E8484\NEW\Bot App\Bot App\bin\System.Net.Http.Formatting.xml
+E:\Web\Fiverr\Programming Guy\Orders\#FO811DD1E8484\NEW\Bot App\Bot App\bin\System.Web.Http.xml
+E:\Web\Fiverr\Programming Guy\Orders\#FO811DD1E8484\NEW\Bot App\Bot App\bin\System.Web.Http.WebHost.xml
+E:\Web\Fiverr\Programming Guy\Orders\#FO811DD1E8484\NEW\Bot App\Bot App\bin\ar\Microsoft.Bot.Builder.resources.dll
+E:\Web\Fiverr\Programming Guy\Orders\#FO811DD1E8484\NEW\Bot App\Bot App\bin\cs\Microsoft.Bot.Builder.resources.dll
+E:\Web\Fiverr\Programming Guy\Orders\#FO811DD1E8484\NEW\Bot App\Bot App\bin\de-dE\Microsoft.Bot.Builder.resources.dll
+E:\Web\Fiverr\Programming Guy\Orders\#FO811DD1E8484\NEW\Bot App\Bot App\bin\en\Microsoft.Bot.Builder.resources.dll
+E:\Web\Fiverr\Programming Guy\Orders\#FO811DD1E8484\NEW\Bot App\Bot App\bin\es\Microsoft.Bot.Builder.resources.dll
+E:\Web\Fiverr\Programming Guy\Orders\#FO811DD1E8484\NEW\Bot App\Bot App\bin\fa\Microsoft.Bot.Builder.resources.dll
+E:\Web\Fiverr\Programming Guy\Orders\#FO811DD1E8484\NEW\Bot App\Bot App\bin\fr\Microsoft.Bot.Builder.resources.dll
+E:\Web\Fiverr\Programming Guy\Orders\#FO811DD1E8484\NEW\Bot App\Bot App\bin\it\Microsoft.Bot.Builder.resources.dll
+E:\Web\Fiverr\Programming Guy\Orders\#FO811DD1E8484\NEW\Bot App\Bot App\bin\ja\Microsoft.Bot.Builder.resources.dll
+E:\Web\Fiverr\Programming Guy\Orders\#FO811DD1E8484\NEW\Bot App\Bot App\bin\nl\Microsoft.Bot.Builder.resources.dll
+E:\Web\Fiverr\Programming Guy\Orders\#FO811DD1E8484\NEW\Bot App\Bot App\bin\pt-BR\Microsoft.Bot.Builder.resources.dll
+E:\Web\Fiverr\Programming Guy\Orders\#FO811DD1E8484\NEW\Bot App\Bot App\bin\ru\Microsoft.Bot.Builder.resources.dll
+E:\Web\Fiverr\Programming Guy\Orders\#FO811DD1E8484\NEW\Bot App\Bot App\bin\zh-hans\Microsoft.Bot.Builder.resources.dll
+E:\Web\Fiverr\Programming Guy\Orders\#FO811DD1E8484\NEW\Bot App\Bot App\obj\Debug\Bot App.csproj.CopyComplete
+E:\Web\Fiverr\Programming Guy\Orders\#FO811DD1E8484\NEW\Bot App\Bot App\obj\Debug\Bot Application.dll
+E:\Web\Fiverr\Programming Guy\Orders\#FO811DD1E8484\NEW\Bot App\Bot App\obj\Debug\Bot Application.pdb
+C:\Users\tiyau\Desktop\Bot App\Bot App\bin\Bot Application.dll.config
+C:\Users\tiyau\Desktop\Bot App\Bot App\bin\Bot Application.dll
+C:\Users\tiyau\Desktop\Bot App\Bot App\bin\Bot Application.pdb
+C:\Users\tiyau\Desktop\Bot App\Bot App\bin\AuthBot.dll
+C:\Users\tiyau\Desktop\Bot App\Bot App\bin\Autofac.dll
+C:\Users\tiyau\Desktop\Bot App\Bot App\bin\Chronic.dll
+C:\Users\tiyau\Desktop\Bot App\Bot App\bin\Microsoft.Bot.Builder.Autofac.dll
+C:\Users\tiyau\Desktop\Bot App\Bot App\bin\Microsoft.Bot.Builder.dll
+C:\Users\tiyau\Desktop\Bot App\Bot App\bin\Microsoft.Bot.Builder.Extensions.dll
+C:\Users\tiyau\Desktop\Bot App\Bot App\bin\Microsoft.Bot.Connector.dll
+C:\Users\tiyau\Desktop\Bot App\Bot App\bin\Microsoft.Identity.Client.dll
+C:\Users\tiyau\Desktop\Bot App\Bot App\bin\Microsoft.Identity.Client.Platform.dll
+C:\Users\tiyau\Desktop\Bot App\Bot App\bin\Microsoft.IdentityModel.Clients.ActiveDirectory.dll
+C:\Users\tiyau\Desktop\Bot App\Bot App\bin\Microsoft.IdentityModel.Clients.ActiveDirectory.Platform.dll
+C:\Users\tiyau\Desktop\Bot App\Bot App\bin\Microsoft.IdentityModel.Logging.dll
+C:\Users\tiyau\Desktop\Bot App\Bot App\bin\Microsoft.IdentityModel.Protocol.Extensions.dll
+C:\Users\tiyau\Desktop\Bot App\Bot App\bin\Microsoft.IdentityModel.Protocols.dll
+C:\Users\tiyau\Desktop\Bot App\Bot App\bin\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\tiyau\Desktop\Bot App\Bot App\bin\Microsoft.IdentityModel.Tokens.dll
+C:\Users\tiyau\Desktop\Bot App\Bot App\bin\Microsoft.Rest.ClientRuntime.dll
+C:\Users\tiyau\Desktop\Bot App\Bot App\bin\Microsoft.Win32.Primitives.dll
+C:\Users\tiyau\Desktop\Bot App\Bot App\bin\Microsoft.WindowsAzure.Configuration.dll
+C:\Users\tiyau\Desktop\Bot App\Bot App\bin\Newtonsoft.Json.dll
+C:\Users\tiyau\Desktop\Bot App\Bot App\bin\System.Diagnostics.DiagnosticSource.dll
+C:\Users\tiyau\Desktop\Bot App\Bot App\bin\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\tiyau\Desktop\Bot App\Bot App\bin\System.Net.Http.Formatting.dll
+C:\Users\tiyau\Desktop\Bot App\Bot App\bin\System.Runtime.Serialization.Primitives.dll
+C:\Users\tiyau\Desktop\Bot App\Bot App\bin\System.Security.Cryptography.Algorithms.dll
+C:\Users\tiyau\Desktop\Bot App\Bot App\bin\System.Security.Cryptography.Encoding.dll
+C:\Users\tiyau\Desktop\Bot App\Bot App\bin\System.Security.Cryptography.Primitives.dll
+C:\Users\tiyau\Desktop\Bot App\Bot App\bin\System.Security.Cryptography.X509Certificates.dll
+C:\Users\tiyau\Desktop\Bot App\Bot App\bin\System.Web.Http.dll
+C:\Users\tiyau\Desktop\Bot App\Bot App\bin\System.Web.Http.WebHost.dll
+C:\Users\tiyau\Desktop\Bot App\Bot App\bin\Autofac.xml
+C:\Users\tiyau\Desktop\Bot App\Bot App\bin\Microsoft.Bot.Builder.xml
+C:\Users\tiyau\Desktop\Bot App\Bot App\bin\Microsoft.Bot.Builder.Autofac.xml
+C:\Users\tiyau\Desktop\Bot App\Bot App\bin\Microsoft.Bot.Builder.Extensions.xml
+C:\Users\tiyau\Desktop\Bot App\Bot App\bin\Microsoft.Bot.Connector.xml
+C:\Users\tiyau\Desktop\Bot App\Bot App\bin\Microsoft.Identity.Client.xml
+C:\Users\tiyau\Desktop\Bot App\Bot App\bin\Microsoft.Identity.Client.Platform.xml
+C:\Users\tiyau\Desktop\Bot App\Bot App\bin\Microsoft.IdentityModel.Clients.ActiveDirectory.xml
+C:\Users\tiyau\Desktop\Bot App\Bot App\bin\Microsoft.IdentityModel.Clients.ActiveDirectory.Platform.xml
+C:\Users\tiyau\Desktop\Bot App\Bot App\bin\Microsoft.IdentityModel.Logging.xml
+C:\Users\tiyau\Desktop\Bot App\Bot App\bin\Microsoft.IdentityModel.Protocol.Extensions.xml
+C:\Users\tiyau\Desktop\Bot App\Bot App\bin\Microsoft.IdentityModel.Protocols.xml
+C:\Users\tiyau\Desktop\Bot App\Bot App\bin\Microsoft.IdentityModel.Protocols.OpenIdConnect.xml
+C:\Users\tiyau\Desktop\Bot App\Bot App\bin\Microsoft.IdentityModel.Tokens.xml
+C:\Users\tiyau\Desktop\Bot App\Bot App\bin\Microsoft.Rest.ClientRuntime.xml
+C:\Users\tiyau\Desktop\Bot App\Bot App\bin\Microsoft.WindowsAzure.Configuration.xml
+C:\Users\tiyau\Desktop\Bot App\Bot App\bin\Newtonsoft.Json.xml
+C:\Users\tiyau\Desktop\Bot App\Bot App\bin\System.Diagnostics.DiagnosticSource.xml
+C:\Users\tiyau\Desktop\Bot App\Bot App\bin\System.IdentityModel.Tokens.Jwt.xml
+C:\Users\tiyau\Desktop\Bot App\Bot App\bin\System.Net.Http.Formatting.xml
+C:\Users\tiyau\Desktop\Bot App\Bot App\bin\System.Web.Http.xml
+C:\Users\tiyau\Desktop\Bot App\Bot App\bin\System.Web.Http.WebHost.xml
+C:\Users\tiyau\Desktop\Bot App\Bot App\bin\ar\Microsoft.Bot.Builder.resources.dll
+C:\Users\tiyau\Desktop\Bot App\Bot App\bin\cs\Microsoft.Bot.Builder.resources.dll
+C:\Users\tiyau\Desktop\Bot App\Bot App\bin\de-dE\Microsoft.Bot.Builder.resources.dll
+C:\Users\tiyau\Desktop\Bot App\Bot App\bin\en\Microsoft.Bot.Builder.resources.dll
+C:\Users\tiyau\Desktop\Bot App\Bot App\bin\es\Microsoft.Bot.Builder.resources.dll
+C:\Users\tiyau\Desktop\Bot App\Bot App\bin\fa\Microsoft.Bot.Builder.resources.dll
+C:\Users\tiyau\Desktop\Bot App\Bot App\bin\fr\Microsoft.Bot.Builder.resources.dll
+C:\Users\tiyau\Desktop\Bot App\Bot App\bin\it\Microsoft.Bot.Builder.resources.dll
+C:\Users\tiyau\Desktop\Bot App\Bot App\bin\ja\Microsoft.Bot.Builder.resources.dll
+C:\Users\tiyau\Desktop\Bot App\Bot App\bin\nl\Microsoft.Bot.Builder.resources.dll
+C:\Users\tiyau\Desktop\Bot App\Bot App\bin\pt-BR\Microsoft.Bot.Builder.resources.dll
+C:\Users\tiyau\Desktop\Bot App\Bot App\bin\ru\Microsoft.Bot.Builder.resources.dll
+C:\Users\tiyau\Desktop\Bot App\Bot App\bin\zh-hans\Microsoft.Bot.Builder.resources.dll
+C:\Users\tiyau\Desktop\Bot App\Bot App\obj\Debug\Bot App.csprojResolveAssemblyReference.cache
+C:\Users\tiyau\Desktop\Bot App\Bot App\obj\Debug\Bot App.csproj.CoreCompileInputs.cache
+C:\Users\tiyau\Desktop\Bot App\Bot App\obj\Debug\Bot Application.dll
+C:\Users\tiyau\Desktop\Bot App\Bot App\obj\Debug\Bot Application.pdb

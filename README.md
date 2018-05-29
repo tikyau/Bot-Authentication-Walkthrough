@@ -70,46 +70,46 @@ You can follow given below steps for integrate AD authentication
 
 **Select Web.config file and add Mode,resourceID,Endpointurl ,Tenant,clientID,clientSecret and redirect url appsettings property and replace Azure AD details as per below
 
-1.  <appSettings>  
-2.  <!-- update these with your BotId, Microsoft App Id and your Microsoft App Password-->  
-3.  <add key="BotId" value="YourBotId" />  
-4.  <add key="MicrosoftAppId" value="" />  
-5.  <add key="MicrosoftAppPassword" value="" />  
-
-7.  <!-- AAD Auth v1 settings -->  
-8.  <add key="ActiveDirectory.Mode" value="v1" />  
-9.  <add key="ActiveDirectory.ResourceId" value="https://graph.windows.net/" />  
-10. <add key="ActiveDirectory.EndpointUrl" value="https://login.microsoftonline.com" />  
-11. <add key="ActiveDirectory.Tenant" value="dxdemos.net" />  
-12. <add key="ActiveDirectory.ClientId" value="2d3b5788-05a5-486d-b2a4-2772a4511396" />  
-13. <add key="ActiveDirectory.ClientSecret" value="wU3oFBJ1gjWcB8Lo/fMaaCwg7ygg8Y9zBJlUq+0yBN0=" />  
-14. <add key="ActiveDirectory.RedirectUrl" value="http://localhost:3979/api/OAuthCallback" />  
-
-17. </appSettings>  
+1. &lt;appSettings&gt;
+2.   &lt;!-- update these  **with**  your BotId, Microsoft App Id and your Microsoft App Password--&gt;
+3.   &lt;add key=&quot;BotId&quot; value=&quot;YourBotId&quot; /&gt;
+4.   &lt;add key=&quot;MicrosoftAppId&quot; value=&quot;&quot; /&gt;
+5.   &lt;add key=&quot;MicrosoftAppPassword&quot; value=&quot;&quot; /&gt;
+6.
+7.   &lt;!-- AAD Auth v1 settings --&gt;
+8.   &lt;add key=&quot;ActiveDirectory.Mode&quot; value=&quot;v1&quot; /&gt;
+9.   &lt;add key=&quot;ActiveDirectory.ResourceId&quot; value=&quot;https://graph.windows.net/&quot; /&gt;
+10.   &lt;add key=&quot;ActiveDirectory.EndpointUrl&quot; value=&quot;https://login.microsoftonline.com&quot; /&gt;
+11.   &lt;add key=&quot;ActiveDirectory.Tenant&quot; value=&quot;dxdemos.net&quot; /&gt;
+12.   &lt;add key=&quot;ActiveDirectory.ClientId&quot; value=&quot;2d3b5788-05a5-486d-b2a4-2772a4511396&quot; /&gt;
+13.   &lt;add key=&quot;ActiveDirectory.ClientSecret&quot; value=&quot;wU3oFBJ1gjWcB8Lo/fMaaCwg7ygg8Y9zBJlUq+0yBN0=&quot; /&gt;
+14.   &lt;add key=&quot;ActiveDirectory.RedirectUrl&quot; value=&quot;http://localhost:3979/api/OAuthCallback&quot; /&gt;
+15.
+16.
+17. &lt;/appSettings&gt;
 
 **Step 2
 
 **Select Global.asax.cs file and call all the bot app setting property and assign to AuthBot model class, like below
-
-1.  using System.Configuration;  
-2.  using System.Web.Http;  
-
-4.  namespace DevAuthBot  
-5.  {  
-6.  public class WebApiApplication : System.Web.HttpApplication  
-7.  {  
-8.  protected void Application_Start()  
-9.  {  
-10. GlobalConfiguration.Configure(WebApiConfig.Register);  
-11. AuthBot.Models.AuthSettings.Mode = ConfigurationManager.AppSettings["ActiveDirectory.Mode"];  
-12. AuthBot.Models.AuthSettings.EndpointUrl = ConfigurationManager.AppSettings["ActiveDirectory.EndpointUrl"];  
-13. AuthBot.Models.AuthSettings.Tenant = ConfigurationManager.AppSettings["ActiveDirectory.Tenant"];  
-14. AuthBot.Models.AuthSettings.RedirectUrl = ConfigurationManager.AppSettings["ActiveDirectory.RedirectUrl"];  
-15. AuthBot.Models.AuthSettings.ClientId = ConfigurationManager.AppSettings["ActiveDirectory.ClientId"];  
-16. AuthBot.Models.AuthSettings.ClientSecret = ConfigurationManager.AppSettings["ActiveDirectory.ClientSecret"];  
-17. }  
-18. }  
-19. }  
+1. using System.Configuration;
+2. using System.Web.Http;
+3.
+4. namespace DevAuthBot
+5. {
+6.      **public**   **class**  WebApiApplication : System.Web.HttpApplication
+7.     {
+8.          **protected**   **void**  Application\_Start()
+9.         {
+10.             GlobalConfiguration.Configure(WebApiConfig.Register);
+11.             AuthBot.Models.AuthSettings.Mode = ConfigurationManager.AppSettings[&quot;ActiveDirectory.Mode&quot;];
+12.             AuthBot.Models.AuthSettings.EndpointUrl = ConfigurationManager.AppSettings[&quot;ActiveDirectory.EndpointUrl&quot;];
+13.             AuthBot.Models.AuthSettings.Tenant = ConfigurationManager.AppSettings[&quot;ActiveDirectory.Tenant&quot;];
+14.             AuthBot.Models.AuthSettings.RedirectUrl = ConfigurationManager.AppSettings[&quot;ActiveDirectory.RedirectUrl&quot;];
+15.             AuthBot.Models.AuthSettings.ClientId = ConfigurationManager.AppSettings[&quot;ActiveDirectory.ClientId&quot;];
+16.             AuthBot.Models.AuthSettings.ClientSecret = ConfigurationManager.AppSettings[&quot;ActiveDirectory.ClientSecret&quot;];
+17.         }
+18.     }
+19. }
 
 **Step 3
 
@@ -143,44 +143,44 @@ You can follow given below steps for integrate AD authentication
 
 **Create aMessageReceivedAsyncmethod and write the following code for the login and logout default dialog and create a ResumeAfterAuth for after the user login, bot will reply the user name and email id details.
 
-1.  /// <summary>  
-2.  /// Login and Logout  
-3.  /// </summary>  
-4.  /// <param name="context"></param>  
-5.  /// <param name="item"></param>  
-6.  /// <returns></returns>  
-7.  public virtual async Task MessageReceivedAsync(IDialogContext context, IAwaitable<IMessageActivity> item)  
-8.  {  
-9.  var message = await item;  
-
-11. //endpoint v1  
-12. if (string.IsNullOrEmpty(await context.GetAccessToken(ConfigurationManager.AppSettings["ActiveDirectory.ResourceId"])))  
-13. {  
-14. //Navigate to website for Login  
-15. await context.Forward(new AzureAuthDialog(ConfigurationManager.AppSettings["ActiveDirectory.ResourceId"]), this.ResumeAfterAuth, message, CancellationToken.None);  
-16. }  
-17. else  
-18. {  
-19. //Logout  
-20. await context.Logout();  
-21. context.Wait(MessageReceivedAsync);  
-22. }  
-23. }  
-
-25. /// <summary>  
-26. /// ResumeAfterAuth  
-27. /// </summary>  
-28. /// <param name="context"></param>  
-29. /// <param name="result"></param>  
-30. /// <returns></returns>  
-31. private async Task ResumeAfterAuth(IDialogContext context, IAwaitable<string> result)  
-32. {  
-33. //AD resposnse message   
-34. var message = await result;  
-
-36. await context.PostAsync(message);  
-37. context.Wait(MessageReceivedAsync);  
-38. } 
+1. /// &lt;summary&gt;
+2. /// Login and Logout
+3. /// &lt;/summary&gt;
+4. /// &lt;param name=&quot;context&quot;&gt;&lt;/param&gt;
+5. /// &lt;param name=&quot;item&quot;&gt;&lt;/param&gt;
+6. /// &lt;returns&gt;&lt;/returns&gt;
+7. **public**  virtual async Task MessageReceivedAsync(IDialogContext context, IAwaitable&lt;IMessageActivity&gt; item)
+8. {
+9.      **var**  message = await item;
+10.
+11.     //endpoint v1
+12.      **if**  (string.IsNullOrEmpty(await context.GetAccessToken(ConfigurationManager.AppSettings[&quot;ActiveDirectory.ResourceId&quot;])))
+13.     {
+14.         //Navigate to website for Login
+15.         await context.Forward( **new**  AzureAuthDialog(ConfigurationManager.AppSettings[&quot;ActiveDirectory.ResourceId&quot;]),  **this**.ResumeAfterAuth, message, CancellationToken.None);
+16.     }
+17.      **else**
+18.     {
+19.         //Logout
+20.         await context.Logout();
+21.         context.Wait(MessageReceivedAsync);
+22.     }
+23. }
+24.
+25. /// &lt;summary&gt;
+26. /// ResumeAfterAuth
+27. /// &lt;/summary&gt;
+28. /// &lt;param name=&quot;context&quot;&gt;&lt;/param&gt;
+29. /// &lt;param name=&quot;result&quot;&gt;&lt;/param&gt;
+30. /// &lt;returns&gt;&lt;/returns&gt;
+31. **private**  async Task ResumeAfterAuth(IDialogContext context, IAwaitable&lt;string&gt; result)
+32. {
+33.     //AD resposnse message
+34.      **var**  message = await result;
+35.
+36.     await context.PostAsync(message);
+37.     context.Wait(MessageReceivedAsync);
+38. }
 
 After the user enters the first message, our bot will reply and ask to login to the AD. Then, it waits for Authentication code and bot will reply the user details as a response like below.
 
